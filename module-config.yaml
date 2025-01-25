@@ -5,7 +5,7 @@ version: "0.0.1"                            # Flow specification version
 metadata:
   name: "TTS"                               # Unique identifier
   description: "A brief description of your flow"       # Flow purpose
-  author: "saksham"                              # Must match your account username
+  author: "username"                              # Must match your account username
   tags: [ai]                       # Keywords for categorization
   private: true                                       # Access control setting
 
