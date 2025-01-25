@@ -16,7 +16,7 @@ load_dotenv()
 
 # Access environment variables
 mira_key = os.getenv("Mira-key")
-elevenlabs_key = os.getenv("11labs_key")
+elevenlabs_key = os.getenv("elevenlabs_key")
 
 
 
