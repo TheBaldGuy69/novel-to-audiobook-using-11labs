@@ -1,0 +1,45 @@
+# Version format ex. "0.0.1"
+version: "0.0.1"                            # Flow specification version
+
+# Basic metadata for the agent
+metadata:
+  name: "TTS"                               # Unique identifier
+  description: "A brief description of your flow"       # Flow purpose
+  author: "saksham"                              # Must match your account username
+  tags: [ai]                       # Keywords for categorization
+  private: true                                       # Access control setting
+
+# Define the input variables required
+inputs:
+  Chapter:                                              # First input parameter
+    type: string                                       # Currently only String format
+    description: "Novel"
+    required: true
+    example: "Example value for input1"
+  Prompt:
+    type: string
+    description: 'Promt'
+    required: true
+    example: "fuck off"
+  Voice_id:
+    type: string
+    description: 'voice-id'
+    required: false
+    example: 'sexshum'  
+
+# LLM configuration
+model:
+  provider: "openai"           # e.g., anthropic, openai, meta, etc.
+  name: "gpt-4o"                                   # Specific model identifier
+
+
+
+# Prompt template configuration
+prompt: |
+  go through the whole {Chapter} that is uploaded and do work on the basis of {Prompt},{Voice_id}.
+  
+
+# ReadME configuration
+readme: |
+  Your flow's readme...
+  You can use raw text or markdown here.
