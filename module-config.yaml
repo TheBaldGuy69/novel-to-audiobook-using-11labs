@@ -20,12 +20,12 @@ inputs:
     type: string
     description: 'Promt'
     required: true
-    example: "fuck off"
+    example: "good boy"
   Voice_id:
     type: string
     description: 'voice-id'
     required: false
-    example: 'sexshum'  
+    example: 'example'  
 
 # LLM configuration
 model:
