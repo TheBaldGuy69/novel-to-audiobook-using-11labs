@@ -23,7 +23,7 @@ An advanced Node.js backend tool that transforms EPUB files into fully narrated 
 
 ## Installation
 bash
-git clone https://github.com/yourusername/ai-audiobook-generator.git
+git clone (https://github.com/TheBaldGuy69/novel-to-audiobook-using-11labs/)
 cd ai-audiobook-generator
 npm install
 
@@ -33,6 +33,7 @@ npm install
 2. Add API keys:
 
 MIRA_API_KEY=your_mira_api_key
+
 ELEVENLABS_API_KEY=your_elevenlabs_api_key
 
 
